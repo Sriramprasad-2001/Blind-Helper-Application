@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+    android:background="@drawable/calling"
+        android:layout_height="match_parent"
+    android:id="@+id/constraint"
+    android:layout_gravity="center"
+        tools:context=".Calling.CallActivity">
+
+    <TextView
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/nnnn"
+        android:background="#FBE6BD"
+        android:text="Voice Calling"  />
+
+    <TextView
+        android:id="@+id/txtScreen"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:layout_below="@+id/nnnn"
+        android:background="#832196F3"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="71dp" />
+
+
+</RelativeLayout>

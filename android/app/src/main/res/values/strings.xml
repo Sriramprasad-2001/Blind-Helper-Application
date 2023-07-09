@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translation_description="Blind Helper">Advanced Blind Helper</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="features">
+        say <b>Currency</b> to detect the currency.
+        \n Say <b>Object detection</b> to detect  the object.
+        \n say <b>scan the qr</b> to get the  product details.
+        \n Say <b>reminder</b> to create the  reminder.
+        \n Say <b>Call</b> to call the number.
+        \n Say <b>phone transfer</b> to transfer  the amount using phone number.
+        \n Say <b>bank transfer</b> to transfer  the amount using account number.
+        \n Say <b>Message </b> to read the  messages.
+        \n Say <b>Exit </b> to close the  application.
+
+    </string>
+
+</resources>
